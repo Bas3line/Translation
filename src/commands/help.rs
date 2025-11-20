@@ -6,7 +6,7 @@ pub struct HelpCommand;
 impl HelpCommand {
     pub async fn execute(ctx: &Context, msg: &Message) -> Result<()> {
         let help_text = r#"
-**MegaChinese Translation Bot** 🇨🇳
+**MegaChinese Translation Bot**
 
 **Translation Features:**
 • Automatic translation of messages in configured channels
